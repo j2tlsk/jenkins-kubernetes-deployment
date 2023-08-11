@@ -28,11 +28,11 @@ pipeline {
                registryCredential = 'dockerhub-credentials'
            }
       steps{
-        script {
+        //script {
             //docker.withRegistry( 'https://registry.hub.docker.com', registryCredential ) {
             //dockerImage.push("latest")
-          }
-        }
+         // }
+        //}
       }
     }
 
